@@ -27,7 +27,7 @@
       <div id="cpu-level-display" class="lavel"></div>
 
       <section id="cpu_image">
-        <img src="images/CPU_image_0.png" alt="" />
+        <img src="images/cpu_image_0.png" alt="" />
       </section>
 
       <section>
@@ -316,7 +316,7 @@
           menu.classList.remove("open");
           menu.style.height = "0";
           $("header").css("background-color", "#39bcdd");
-          $("#cpu_image").html('<img src="images/CPU_image_0.png" alt="">');
+          $("#cpu_image").html('<img src="images/cpu_image_0.png" alt="">');
         });
 
         $("#level-strong").on("click", function (e) {
@@ -327,7 +327,7 @@
           menu.classList.remove("open");
           menu.style.height = "0";
           $("header").css("background-color", "#f2a1a6");
-          $("#cpu_image").html('<img src="images/CPU_image_1.png" alt="">');
+          $("#cpu_image").html('<img src="images/cpu_image_1.png" alt="">');
         });
 
         $("#level-oni").on("click", function (e) {
@@ -338,7 +338,7 @@
           menu.classList.remove("open");
           menu.style.height = "0";
           $("header").css("background-color", "#00a479");
-          $("#cpu_image").html('<img src="images/CPU_image_2.png" alt="">');
+          $("#cpu_image").html('<img src="images/cpu_image_2.png" alt="">');
         });
       });
 
@@ -368,13 +368,13 @@
           cpu_level = "strong";
           alert("難易度を「つよい」に設定しました。");
           $("header").css("background-color", "#f2a1a6");
-          $("#cpu_image").html('<img src="images/CPU_image_1.png" alt="">');
+          $("#cpu_image").html('<img src="images/cpu_image_1.png" alt="">');
           CPULevelDisplay();
         } else if (cpu_level === "strong") {
           cpu_level = "oni";
           alert("難易度を「おに」に設定しました。");
           $("header").css("background-color", "#00a479");
-          $("#cpu_image").html('<img src="images/CPU_image_2.png" alt="">');
+          $("#cpu_image").html('<img src="images/cpu_image_2.png" alt="">');
           CPULevelDisplay();
         }
       });
